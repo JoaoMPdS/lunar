@@ -1,0 +1,18 @@
+{
+    "build": {
+        "outputDir": "build",
+        "fileFormat": "%PROJECT_NAME% - %PROJECT_VERSION%",
+        "include": ["%.lua$", "%.luau$"]
+    },
+
+    "project": {
+        "name": "Lunar Template",
+        "version": "dev-1",
+        "sourceDirectory": "src",
+        "main": "src/index.lua"
+    },
+
+    "transformers": [
+        "lunar-main"
+    ]
+}
