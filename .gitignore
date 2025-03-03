@@ -1,5 +1,3 @@
-/luarocks.bat
-/lua.bat
 /lua_modules
 /.luarocks
 /build
